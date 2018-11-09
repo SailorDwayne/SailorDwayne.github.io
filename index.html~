@@ -12,7 +12,7 @@
 	<nav>
 		<ul>
 			<li><a href="index.html">Home</a></li>
-			<li><a href="crimesoup.html">Crime Soup</a></li>
+			<li><a href="boi.html">Boi</a></li>
 			<li><a href="braden.html">Braden</a></li>
 			<li><a href="charles.html">Charles</a></li>
 			<li><a href="contact.html">Contact Us</a></li>
@@ -32,10 +32,16 @@
 		<th>Estimated Completion Date</th>
 	</tr>
 	<tr>
-		<td>Crime Soup</td>
-		<td>Charles, Tayor, and Braden</td>
-		<td>Game</td>
-		<td>TBD</td>
+		<td>Boi</td>
+		<td>Charles and Braden</td>
+		<td>Animation</td>
+		<td>March 2019</td>
+	</tr>
+	<tr>
+		<td>Goodnight</td>
+		<td>Aurora and Braden</td>
+		<td>Video Game</td>
+		<td>June 2018</td>
 	</tr>
 	<tr>
 		<td>Oni Mask(working title)</td>

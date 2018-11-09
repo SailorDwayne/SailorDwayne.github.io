@@ -2,13 +2,13 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Gædium :: Boi Animation</title>
+<title>Gædium :: Charles's Stuff</title>
 <link rel="stylesheet" href="mycss.css">
 </head>
 
 <body id="backg">
 <div id="wrapper">
-	<header><h1>Boi: The Animation</h1></header>
+	<header><h1>Charles's Stuff</h1></header>
 	<nav>
 		<ul>
 			<li><a href="index.html">Home</a></li>
@@ -19,10 +19,14 @@
 		</ul>
 	</nav>
 <main>
-<h1>What is Boi?</h1>
-<p>Boi is an animation that Braden and Charles are working on for the Walt Disney Family Museum Teen Animation Contest. </p>
+<h1>Charles's Projects</h1>
+<ul>
+	<li>Boi</li>
+	<li>Miller Hook</li>
+	<li>Art Projects</li>
+</ul>
 
-<img id="roundframe" src="boiandcat.jpg" alt="Boi with his pet." width="384" height="512">
+<img id="squareframe" src="succutelent.jpg" alt="Charles's avatar" width="280" height="375">
 
 </main>
 <footer><br>Gædium<br><a href="mailto:18bjensen3@gmail.com">18bjensen3@gmail.com</a></footer>

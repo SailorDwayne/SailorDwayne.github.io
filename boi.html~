@@ -2,31 +2,25 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Gædium :: Braden's Stuff</title>
+<title>Gædium :: CrimeSoup</title>
 <link rel="stylesheet" href="mycss.css">
 </head>
 
 <body id="backg">
 <div id="wrapper">
-	<header><h1>Braden's Stuff</h1></header>
+	<header><h1>Crime Soup</h1></header>
 	<nav>
 		<ul>
 			<li><a href="index.html">Home</a></li>
-			<li><a href="crimesoup.html">Crime Soup</a></li>
+			<li><a href="boi.html">Crime Soup</a></li>
 			<li><a href="braden.html">Braden</a></li>
 			<li><a href="charles.html">Charles</a></li>
 			<li><a href="contact.html">Contact Us</a></li>
 		</ul>
 	</nav>
 <main>
-<h1>Braden's Projects</h1>
-<ul>
-	<li>Crime Soup</li>
-	<li>Goodnight</li>
-	<li>Oni Mask (Working Title)</li>
-	<li>Smash Tournaments</li>
-	<li>Battle of the Bands</li>
-</ul>
+<h1>What is Crime Soup?</h1>
+<p>In Production</p>
 
 </main>
 <footer><br>Gædium<br><a href="mailto:18bjensen3@gmail.com">18bjensen3@gmail.com</a></footer>
