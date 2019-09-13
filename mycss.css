@@ -1,5 +1,7 @@
-/*Lellow: #e8ba5d
-Cool gray: #7b8c94*/
+/*
+Lellow: #e8ba5d
+Cool gray: #7b8c94
+*/
 
 #wrapper{
 		margin-right: auto;
@@ -14,9 +16,11 @@ main{
 		padding-top: 50px;
 		padding-bottom: 50px;
 		display: block;
-		margin-left: 190px;
+		margin-left: 250px;
+		margin-right: 0;
 		font-family: Avenir;
 		text-align: center;
+		color: #FFF;
 }
 
 table{
@@ -25,12 +29,13 @@ table{
 }
 
 header{
-		height: 100px;
+		padding: 30px;
 		text-align: center;
 		color: #e8ba5d;
 		background-color: #FFF;
 		font-family: Avenir;
 		font-size: 80px;
+		margin-top: 30px;
 }
 
 nav{
@@ -50,7 +55,7 @@ nav li{
 		padding: 10px;
 		margin-bottom: 10px;
 		text-align: center;
-		background-color: #FFF;
+		background-color: #e8ba5d;
 }
 
 nav ul{
@@ -60,18 +65,22 @@ nav ul{
 		font-size: 1.2em;
 }
 
-nav a:visited{
+
+nav a{
 		color:#7b8c94;
 }
 
 nav a:hover{
-		color:#e8ba5d;
+		color:#FFF;
 }
+
 
 h1{
 		font-family: Avenir;
-		margin-bottom: 0;
-		margin-top: 0;
+		padding: 25px;
+		background-color: #FFF;
+		text-align: left;
+		color: #7b8c94;
 }
 
 h3{
@@ -90,6 +99,7 @@ footer{
 		padding: 20px;
 		margin-left: 190px;
 		clear: both;
+		
 }
 
 form{
@@ -98,14 +108,21 @@ form{
 }
 
 table, td, th { 
-		border: 1px solid gray;
+		border: none;
 		text-align: center;
 		padding: .5em;
  }
 
 #backg{
-		background-image: linear-gradient(to bottom, gray, white);
-		background-repeat: no-repeat;
+		background-color:#000000; 
+
+		background-attachment: fixed; 
+
+		background-image: url(https://images.pexels.com/photos/4827/nature-forest-trees-fog.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); 
+
+		background-repeat: no-repeat; 
+
+		background-position: right bottom; 
 }
 
 #roundframe{
@@ -123,107 +140,7 @@ table, td, th {
 		border: 5px solid black;
 }
 
-#headerimg{
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		border: 5px solid black;
-}
 
 th{
 		color: #e62739;
-}
-
-/*@media only screen and (max-width: 64em){
-		body{
-				margin: 0;
-				background-color: #FFFFFF;
-		}
-		
-		#wrapper{
-				min-width: 0;
-				width: auto;
-		}
-		
-		main{
-				margin-left: 10em;
-		}
-		
-		nav{
-				width: auto;
-				text-align: center;
-				padding: 0.5em;
-		}
-		
-		nav li{
-				padding-top: 0.25em;
-				padding-bottom: 0.25em;
-				padding-left: 0.75em;
-				padding-right: 0.75em; 
-		}
-		
-		footer{
-				margin-left: 0;
-		}
-		
-		input[type="submit"]{
-				margin-left: 10em;
-		}
-		
-		p{
-				padding-left: 1em;
-		}
-		
-}
-
-@media only screen and (max-width: 37.5em){
-		header{
-				padding-top: 1em;
-				text-align: center;
-				padding-left: 0;
-		}
-		
-		main{
-				padding-top: 0.1em;
-				padding-bottom: 0.1em;
-				padding-left: 1em;
-				padding-right: 1em;
-				margin-left: 0;
-		}
-		
-		h1{
-				font-size: 1.5em;
-		}
-		
-		nav{
-				float: none;
-				padding: 0;
-		}
-		
-		nav li{
-				display: block;
-				margin: 0;
-				border-bottom: 2px solid #330000;
-		}
-		
-		nav a{
-				display: block;
-		}
-		
-		label{
-				float: none;
-				text-align: left;
-		}
-		
-		main li{
-			margin-left: 0;
-		}
-		
-		#mobile{
-				display: inline;
-		}
-		
-		#desktop{
-				display: none;
-		}
 }
