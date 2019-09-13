@@ -22,6 +22,7 @@ main{
 		text-align: center;
 		color: #FFF;
 		margin-top: 0px;
+		font-size: 20px;
 }
 
 header{
@@ -32,14 +33,16 @@ header{
 		font-family: Avenir;
 		font-size: 80px;
 		margin-top: 30px;
+		margin-bottom: 0px;
 }
 
 nav{
 		font-family: Avenir;
 		float: left;
 		width: 200px;
-		position: fixed;
-		margin-top: 30px;
+		position: sticky;
+		margin-top: 50px;
+		top: 30px;
 }
 
 nav a{
@@ -80,26 +83,39 @@ nav a.active{
 h1{
 		padding: 35px;
 		font-size: 50px;
-		background-color: #7b8c94;
+		background-color: #e8ba5d;
 		text-align: left;
 		color: #FFF;
 		margin-top: 0px;
 }
 
-h2{
-	
-}
-
-h3{
-		text-align: center;
-}
-
 p{
-		background-color: rgb(232, 186, 93, 0.5);
-		padding: 30px;
 		margin-left: 20px;
 		margin-right: 20px;
+		line-height: 30px;
+		padding: 55px;
+		padding-left: 50px;
+		padding-right: 50px;
+		background-color: rgb(123, 140, 148, 0.5);
 }
+
+.h2{
+		font-size: 60px;
+		line-height: 120px;
+}
+
+.h3{
+	font-size: 40px;
+	line-height: 60px;
+	color: #e8ba5d;
+	font-style: italic;
+}
+
+.tiny{
+	font-size: 12px;
+	font-style: italic;
+}
+
 
 footer{
 		font-size: 75%;
