@@ -1,22 +1,18 @@
-/* Light Blue Green: #6ed3cf
-Soft Purple: #9068be
-Tasty Eighties Grey: #e1e8f0
-Rich Red: #e62739 */
+/*Lellow: #e8ba5d
+Cool gray: #7b8c94*/
 
 #wrapper{
 		margin-right: auto;
 		margin-left: auto;
-		width: 80%;
+		width: 90%;
 		height: 100%;
 		min-width: 960px;
 		max-width: 2048px;
 }
 
 main{
-		padding-top: 25px;
-		padding-right: 20px;
-		padding-bottom: 20px;
-		padding-left: 30px;
+		padding-top: 50px;
+		padding-bottom: 50px;
 		display: block;
 		margin-left: 190px;
 		font-family: Avenir;
@@ -31,8 +27,6 @@ table{
 header{
 		height: 100px;
 		text-align: center;
-		padding-top: 15px;
-		padding-left: 15px;
 		color: #e8ba5d;
 		background-color: #FFF;
 		font-family: Avenir;
@@ -42,21 +36,21 @@ header{
 nav{
 		font-family: Avenir;
 		float: left;
-		width: 140px;
-		font-weight: bold;
-		padding: 20px;
+		width: 200px;
+		padding-top: 30px;
 }
 
 nav a{
 		text-decoration: none;
-		transition: color 3s ease-out;
 		display: block;
 }
 
 nav li{
 		display: block;
-		margin: 0;
-		border-bottom: 2px solid #330000;
+		padding: 10px;
+		margin-bottom: 10px;
+		text-align: center;
+		background-color: #FFF;
 }
 
 nav ul{
@@ -66,20 +60,16 @@ nav ul{
 		font-size: 1.2em;
 }
 
-nav a:link{
-		color:#000033;
-}
-
 nav a:visited{
-		color:#344873;
+		color:#7b8c94;
 }
 
 nav a:hover{
-		color:#FFFFFF;
+		color:#e8ba5d;
 }
 
 h1{
-		font-family: Helvetica;
+		font-family: Avenir;
 		margin-bottom: 0;
 		margin-top: 0;
 }
@@ -89,7 +79,7 @@ h3{
 }
 
 p{
-		font-family: Helvetica;
+		font-family: Avenir;
 }
 
 footer{
@@ -144,7 +134,7 @@ th{
 		color: #e62739;
 }
 
-@media only screen and (max-width: 64em){
+/*@media only screen and (max-width: 64em){
 		body{
 				margin: 0;
 				background-color: #FFFFFF;
