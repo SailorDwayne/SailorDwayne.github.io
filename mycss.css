@@ -21,6 +21,7 @@ main{
 		font-family: Avenir;
 		text-align: center;
 		color: #FFF;
+		margin-top: 0px;
 }
 
 table{
@@ -43,16 +44,17 @@ nav{
 		float: left;
 		width: 200px;
 		padding-top: 30px;
+		position: fixed;
 }
 
 nav a{
 		text-decoration: none;
 		display: block;
+		padding: 15px;
 }
 
 nav li{
 		display: block;
-		padding: 10px;
 		margin-bottom: 10px;
 		text-align: center;
 		background-color: #e8ba5d;
@@ -74,13 +76,20 @@ nav a:hover{
 		color:#FFF;
 }
 
+nav a.active{
+	background-color: #FFF;
+	color: #e8ba5d;
+}
+
 
 h1{
 		font-family: Avenir;
-		padding: 25px;
+		padding: 35px;
+		font-size: 50px;
 		background-color: #FFF;
 		text-align: left;
 		color: #7b8c94;
+		margin-top: 0px;
 }
 
 h3{
@@ -89,6 +98,8 @@ h3{
 
 p{
 		font-family: Avenir;
+		background-color: rgb(232, 186, 93, 0.5);
+		padding: 30px;
 }
 
 footer{
@@ -102,16 +113,19 @@ footer{
 		
 }
 
+footer a{
+	color: #e8ba5d;
+}
+
+footer a:hover{
+	color: #FFF;
+}
+
 form{
 		padding-top: 1em;
 		text-align: center;
 }
 
-table, td, th { 
-		border: none;
-		text-align: center;
-		padding: .5em;
- }
 
 #backg{
 		background-color:#000000; 
@@ -123,6 +137,8 @@ table, td, th {
 		background-repeat: no-repeat; 
 
 		background-position: right bottom; 
+		
+		width: 100%;
 }
 
 #roundframe{
