@@ -17,16 +17,11 @@ main{
 		padding-bottom: 50px;
 		display: block;
 		margin-left: 250px;
-		margin-right: 0;
+		margin-right: 0px;
 		font-family: Avenir;
 		text-align: center;
 		color: #FFF;
 		margin-top: 0px;
-}
-
-table{
-		margin-left: auto;
-		margin-right:auto;
 }
 
 header{
@@ -43,8 +38,8 @@ nav{
 		font-family: Avenir;
 		float: left;
 		width: 200px;
-		padding-top: 30px;
 		position: fixed;
+		margin-top: 30px;
 }
 
 nav a{
@@ -83,13 +78,16 @@ nav a.active{
 
 
 h1{
-		font-family: Avenir;
 		padding: 35px;
 		font-size: 50px;
-		background-color: #FFF;
+		background-color: #7b8c94;
 		text-align: left;
-		color: #7b8c94;
+		color: #FFF;
 		margin-top: 0px;
+}
+
+h2{
+	
 }
 
 h3{
@@ -97,16 +95,17 @@ h3{
 }
 
 p{
-		font-family: Avenir;
 		background-color: rgb(232, 186, 93, 0.5);
 		padding: 30px;
+		margin-left: 20px;
+		margin-right: 20px;
 }
 
 footer{
 		font-size: 75%;
 		text-align: center;
 		font-style: italic;
-		font-family: Helvetica;
+		font-family: Avenir;
 		padding: 20px;
 		margin-left: 190px;
 		clear: both;
@@ -129,16 +128,12 @@ form{
 
 #backg{
 		background-color:#000000; 
-
 		background-attachment: fixed; 
-
 		background-image: url(https://images.pexels.com/photos/4827/nature-forest-trees-fog.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); 
-
-		background-repeat: no-repeat; 
-
+		background-repeat: no-repeat;
 		background-position: right bottom; 
-		
-		width: 100%;
+		min-width: 100%;
+		min-height: 100%;
 }
 
 #roundframe{
@@ -146,7 +141,7 @@ form{
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		border: 5px solid black;
+		border: 0;
 }
 
 #squareframe{
